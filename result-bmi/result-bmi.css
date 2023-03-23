@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body,p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 300px 50px 300px;
+}
+
+.header-label {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.hero-container {
+    background-color: #F2F3F5;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    align-items: center;
+}
+
+.label-1 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.label-2 {
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.label-3 {
+    font-size: 15px;
+    margin: 10px 0px 20px 0px;
+}
+
+.list {
+    font-size: 15px;
+    margin: 15px;
+    list-style: none;
+    padding-left: 0em;
+    text-align: center;
+    color: rgb(37, 37, 37);
+}
+
+.hero-container button {
+    height: 30px;
+    border-radius: 3px;
+    border: 0px;
+}
+.submit-1 {
+    background-color: #75BEDB;
+    color: #FFFFFF;
+}
+
+.submit-1:active {
+    background-color: #6BAFCA;
+}
+
+.footer-label {
+    margin: 10px 0px;
+    font-size: 15px;
+}
+
+.description-label-1 {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+.description-label-4 {
+    font-size: 15px;
+}
+
+.submit-2 {
+    background-color: #75BEDB;
+    color: #FFFFFF;
+}
+
+.submit-2:active {
+    background-color: #6BAFCA;
+}
+
+.hero-container-1 button {
+    height: 30px;
+    border-radius: 3px;
+    border: 0px;
+}
+
+.description-label-4 {
+    margin: 15px 0px;
+}
+
+.button {
+    /* display: flex; */
+    gap: 5px;
+}
+
+.submit-3 {
+    background-color: #75BEDB;
+    color: #FFFFFF;
+}
+.submit-3:active {
+    background-color: #6BAFCA;
+}
+
+.footer-label-1 {
+    margin: 10px 0px;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.app-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.android {
+    width: 200px;
+    float: left;
+    padding: 5px;
+    margin: auto;
+}
+
+.apple {
+    margin: auto;
+    width: 200px;
+    float: left;
+    height: 50px;
+}

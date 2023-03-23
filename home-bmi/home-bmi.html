@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./home-bmi.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>BMI Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div>
+            <p class="header-label"> Kalkulator BMI</p>
+            <p class="description-label">
+                Labore incididunt Lorem laborum ex mollit in ad proident ad laboris. Laboris excepteur esse nostrud aliquip consequat adipisicing ea ut. Fugiat sunt voluptate proident consequat consectetur. Ipsum anim velit anim enim ut nulla commodo. Amet velit cillum Lorem non aliqua tempor tempor consectetur cupidatat ullamco velit nostrud.
+            </p>
+        </div>
+
+        <!-- Body -->
+        <div class="hero-container">
+            <div class="item-container">
+                <p class="item-title">Jenis Kelamin</p>
+
+                <div class="gender-option" data-role="controlgroup">
+                    <div class="hero-gender-option">
+                        <input type="radio" name="gender" id="make" value="male">
+                        <label for="male">Pria</label>
+                    </div>
+
+                    <div class="hero-gender-option">
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Wanita</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-containe">
+                <p class="item-title">Berat Badan (kg)</p>
+
+                <div class="input-container">
+                    <div class="input-icon">
+                        <i class="fa-solid fa-pencil"></i>
+                    </div>
+
+                    <div class="input-texfield-1">
+                        <input type="number" id="beratBadan" required="true">
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-container">
+                <p class="item-title">Usia (tahun)</p>
+
+                <div class="input-container">
+                    <div class="input-icon">
+                        <i class="fa-solid fa-pencil"></i>
+                    </div>
+
+                    <div class="input-texfield-2">
+                        <input type="number" id="usia" required="true">
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-container">
+                <p class="item-title">Tinggi badan (cm)</p>
+
+                <div class="input-container">
+                    <div class="input-icon">
+                        <i class="fa-solid fa-pencil"></i>
+                    </div>
+
+                    <div class="input-texfield-3">
+                        <input type="number" id="tinggiBadan" required="true">
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-container">
+                <div class="button-container">
+                    <button class="primary" type="submit" id="submit">Hitung BMI</button> 
+                    <button class="secondary" type="reset" id="reset" >Reset</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div>
+            <p class="footer-label">
+                Keunggulan Fitur
+            </p>
+            <ol class="list">
+                <li>Menghitung berat badan</li>
+                <li>Cupidatat cillum Lorem aliqua ea sint pariatur qui nulla sit mollit eu excepteur voluptate.</li>
+                <li>Magna ea ipsum ut officia ipsum eiusmod minim consequat ut cillum consectetur dolore sit velit.</li>
+            </ol>
+            <p class="description-label">
+                Labore incididunt Lorem laborum ex mollit in ad proident ad laboris. Laboris excepteur esse nostrud aliquip consequat adipisicing ea ut. Fugiat sunt voluptate proident consequat consectetur. Ipsum anim velit anim enim ut nulla commodo. Amet velit cillum Lorem non aliqua tempor tempor consectetur cupidatat ullamco velit nostrud.
+            </p>
+            <p class="description-label">
+                Labore incididunt Lorem laborum ex mollit in ad proident ad laboris. Laboris excepteur esse nostrud aliquip consequat adipisicing ea ut. Fugiat sunt voluptate proident consequat consectetur. Ipsum anim velit anim enim ut nulla commodo. Amet velit cillum Lorem non aliqua tempor tempor consectetur cupidatat ullamco velit nostrud.
+            </p>
+        </div>
+    </div>
+
+</body>
+
+<script src="home-bmi.js"></script>
+
+</html>

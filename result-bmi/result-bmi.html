@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./result-bmi.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Result BMI</title>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <p class="header-label">Hasil</p>
+        </div>
+
+        <!-- Body -->
+        <div class="hero-container">
+            <p id="status" class="label-1">Berat Badan Lebih</p>
+            <p id="amount" class="result">00.00</p>
+            <p id="descriptions" class="label-3">Anda memiliki berat badan berlebihan</p>
+            <button class="submit-1" type="submit">Download Hasil BMI</button>
+        </div>
+
+        <div class="hero-container-1">
+            <p id="category" class="footer-label"></p>
+            <p id="recommendation" class="description-label-1">
+                Anda dalam kategori overwight atau berat badan berlebih.
+                Cara terbaik menurunkan berat badan adalah dengan mengatur kalor makan yang dikonsumsi dan berolahraga.
+                Jika BMI berada dalam kategori ini maka Anda dianjurkan untuk menurunkan berat badan hingga batas
+                normal.
+            </p>
+            <button class="submit-2" type="submit">Konsultasi Ahli Gizi Via Aplikasi</button>
+            <button class="submit-2" type="submit">Registrasi Online Ahli Gizi</button>
+            <p class="description-label-4">
+                BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan resiko penyakit seseorang.
+                Anda perlu konsultasi lebih lanjut mengenai resiko dan kekhawatiran Anda terkait dengan berat badan
+                Anda.
+            </p>
+        </div>
+
+        <div class="hero-container">
+            <p class="label-3">Berapa penyakit yang berasal dari kegemukan</p>
+            <ol class="list">
+                <li>Diabetes</li>
+                <li>Hipertensi</li>
+                <li>Sakit Jantung</li>
+                <li>Ostoarthrisis</li>
+            </ol>
+            <div class="button">
+                <button class="submit-3" type="submit">Konsultasi Dokter Via Aplikasi</button>
+                <button class="submit-3" type="submit">Registrasi Online Sekarang</button>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p class="footer-label-1">Download Aplikasi</p>
+            <div class="app-icons">
+                <a href="">
+                    <img class="android" alt='Get it on Google Play'
+                        src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' />
+                </a>
+
+                <a href="https://apps.apple.com/app/id1551353775">
+                    <img class="apple"
+                        src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1276560000&h=7e7b68fad19738b5649a1bfb78ff46e9"
+                        alt="Download on the App Store">
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="myModal" id="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p class="modalText"></p>
+        </div>
+    </div>
+
+</body>
+<script src="result-bmi.js"></script>
+
+</html>
